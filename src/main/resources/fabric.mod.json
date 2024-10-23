@@ -2,9 +2,11 @@
   "schemaVersion": 1,
   "id": "nonoban",
   "version": "${version}",
-  "name": "nonoban",
+  "name": "NoNoBan",
   "description": "",
-  "authors": [],
+  "authors": [
+    "Miko0187"
+  ],
   "contact": {},
   "license": "MIT",
   "icon": "assets/nonoban/icon.png",

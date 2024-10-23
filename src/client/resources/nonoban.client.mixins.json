@@ -1,11 +1,19 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "org.Miko0187.nonoban.mixin.client",
+  "package": "org.Miko0187.nonoban.client.mixins",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "BypassProfileRestrictions",
+    "DisableTememetry",
+    "ForceEnableMultiplayer",
+    "ForceReturnNull"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "mixins": [
+    "ForceEnableRealms",
+    "ForceNotUsernameBanned"
+  ]
 }
